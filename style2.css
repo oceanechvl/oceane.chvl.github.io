@@ -1,0 +1,78 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    display: inline-block;
+    font-size: 18px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    justify-content: row;
+}
+
+a:hover {
+    color: #A0EDFF;
+}
+
+
+#Monprojet {
+    color: #A0EDFF;
+    text-decoration: none;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 60px;
+
+
+}
+
+#particularité {
+    color: #A0EDFF;
+    text-decoration: none;
+    font-size: 30px;
+
+
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+h2,
+h3 {
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
